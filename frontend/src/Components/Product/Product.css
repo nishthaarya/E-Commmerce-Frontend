@@ -1,0 +1,98 @@
+.card {
+    position: relative;
+    width: 300px;
+    height: 570px;
+    border: 100px transparent;
+    border-radius: 5px;
+    margin: 30px;
+    color: white;
+    background-color: white;
+}
+
+.card .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: transparent;
+    box-shadow: 0 10px 20px gba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .box a {
+    color: white
+}
+
+.card .box .bottom {
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+    background-color: transparent;
+    color: black
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.card:hover .box .bottom h2 {
+    font-size: 1.3em;
+    color: black;
+}
+
+.card:hover .box .bottom h3 {
+    font-size: 1rem;
+    color: rgb(39, 1, 39)
+}
+
+.card:hover .box .bottom div {
+    font-size: 1rem;
+    color: rgb(39, 1, 39)
+}
+
+.image123 {
+    margin-left: 0px;
+    border-radius: 3px;
+    width: 281px !important;
+    transition: 1s ease;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 350px;
+        height: 540px;
+    }
+    .image {
+        width: 200px;
+    }
+}
+
+.btn123 {
+    cursor: pointer;
+    padding: 15px 25px;
+    margin: 10px;
+    background-color: white;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(110deg,  #f73f64, #5d74e9);
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+.btn123:hover {
+    transition: .5s;
+    background-color: black;
+    color: white;
+}
