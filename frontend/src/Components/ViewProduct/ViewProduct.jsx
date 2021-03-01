@@ -15,7 +15,7 @@ export const ViewProduct = ({match, history}) => {
     const dispatch = useDispatch();
 
     const productDetails = useSelector(state => state.productDetails)
-    const {loading, error, data} = useFetch(`http://localhost:4000/api/products/${id}`)
+    const {loading, error, data} = useFetch(`https://e-commerce-w.herokuapp.com/api/products/${id}`)
     productDetails.loading = loading;
     productDetails.error = error;
     productDetails.product = data;

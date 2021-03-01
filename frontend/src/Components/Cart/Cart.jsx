@@ -33,7 +33,7 @@ export const Cart = () => {
         e.preventDefault()
 
         if(auth) {
-            const API_URL = "http://localhost:4000/";
+            const API_URL = "https://e-commerce-w.herokuapp.com/";
             const orderUrl = `${API_URL}order`;
             const response = await Axios.get(orderUrl)
             const {data} = response;
@@ -84,7 +84,7 @@ export const Cart = () => {
 
         let config = {
             method: "post",
-            url: "http://localhost:4000/confirmationmail",
+            url: "https://e-commerce-w.herokuapp.com/confirmationmail",
             headers: {
                 "Content-Type": "application/json"
             },

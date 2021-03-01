@@ -58,7 +58,7 @@ const Register = () => {
     
             let config = {
                 method: "post",
-                url: "http://localhost:4000/api/user/register",
+                url: "https://e-commerce-w.herokuapp.com/api/user/register",
                 headers: {
                     "Content-Type": "application/json"
                 },

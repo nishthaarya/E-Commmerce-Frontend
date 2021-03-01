@@ -48,7 +48,7 @@ const Login = () => {
     
             let config = {
                 method: "post",
-                url: "http://localhost:4000/api/user/login",
+                url: "https://e-commerce-w.herokuapp.com/api/user/login",
                 headers: {
                     "Content-Type": "application/json"
                 },

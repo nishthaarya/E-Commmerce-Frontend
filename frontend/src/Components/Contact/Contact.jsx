@@ -33,7 +33,7 @@ export const Contact = () => {
     
             let config = {
                 method: "post",
-                url: "http://localhost:4000/email",
+                url: "https://e-commerce-w.herokuapp.com//email",
                 headers: {
                     "Content-Type": "application/json"
                 },

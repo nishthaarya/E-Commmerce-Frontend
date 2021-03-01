@@ -24,7 +24,7 @@ export const getProductsFail = (err) => {
 export const getProducts = () => (dispatch) => {
     dispatch(getProductsRequest())
 
-    axios.get("http://localhost:4000/api/products")
+    axios.get("https://e-commerce-w.herokuapp.com/api/products")
     .then((res) => dispatch(getProductsSuccess(res.data)))
     .catch((err) => dispatch(getProductsFail(err)))
 }
@@ -52,7 +52,7 @@ export const getProductDetailsFail = (err) => {
 export const getProductDetails = (id) => (dispatch) => {
     dispatch(getProductDetailsRequest())
 
-    axios.get(`http://localhost:4000/api/products/${id}`)
+    axios.get(`https://e-commerce-w.herokuapp.com/api/products/${id}`)
     .then((res) => dispatch(getProductDetailsSuccess(res.data)))
     .catch((err) => dispatch(getProductDetailsFail(err)))
 }

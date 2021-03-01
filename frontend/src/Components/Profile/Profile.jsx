@@ -23,7 +23,7 @@ const Profile = () => {
     useEffect(() => {
         let config = {
             method: "get",
-            url: "http://localhost:4000/api/user/details",
+            url: "https://e-commerce-w.herokuapp.com/api/user/details",
             headers: {
                 "Authorization": "Bearer " + token
             }
