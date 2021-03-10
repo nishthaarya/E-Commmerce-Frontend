@@ -24,3 +24,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+select {
+    margin: 20px 40px;
+}
