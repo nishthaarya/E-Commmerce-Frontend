@@ -18,9 +18,10 @@ Created an e-commerce shopping app with an intuitive UI and fresh design for a s
 <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"></code>
 
-##Sneak Peek:
+## Sneak Peek:
 
 ![Screenshot 2021-02-24 at 4 23 15 PM](https://user-images.githubusercontent.com/68868179/110621993-e627bd00-81c0-11eb-8e8c-bd6f60dee9d6.png)
+<hr/>
 ![Screenshot 2021-02-24 at 4 22 55 PM](https://user-images.githubusercontent.com/68868179/110622055-f9d32380-81c0-11eb-9309-7eee7b855cbd.png)
 
 
