@@ -128,11 +128,9 @@
 .submit {
     cursor: pointer;
     padding: 15px 20px;
-    order: 10px solid;
-    border-image-slice: 1;
-    border-width: 4px;
-    border-image-source: linear-gradient(110deg,  #f73f64, #5d74e9);
-    border-radius: 3px;
+    border: 10px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, #f73f64, #5d74e9) 1;
     color: white;
     background-color: black;
     font-weight: 520;
@@ -143,10 +141,8 @@
 
 .submit:hover {
     border: 10px solid;
-    border-image-slice: 1;
-    border-width: 4px;
-    border-image-source: linear-gradient(110deg,  #f73f64, #5d74e9);
-    border-radius: 3px;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, #f73f64, #5d74e9) 1;
     font-size: 18px;
     background-color: white;
     color: black;

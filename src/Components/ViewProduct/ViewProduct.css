@@ -20,9 +20,8 @@
 
 .leftimgs > img:hover {
     border: 10px solid;
-    border-image-slice: 1;
-    border-width: 2px;
-    border-image-source: linear-gradient(110deg,  #f73f64, #5d74e9);
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, #f73f64, #5d74e9) 1;
 }
 
 .left {
@@ -32,12 +31,11 @@
     justify-content: center;
     align-items: center;
     background-color: white !important;
-    width: 70%;
+    width: 65%;
     padding: 0px 0px 0px 20px;
     border: 10px solid;
-    border-image-slice: 1;
-    border-width: 15px;
-    border-image-source: linear-gradient(110deg,  #f73f64, #5d74e9);
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, #f73f64, #5d74e9) 1;
     background-color: rgba(0, 0, 0, 0.233);
     
 }
@@ -48,10 +46,11 @@
 }
 
 .image {
-    width: 100% !important;
+    width: 90% !important;
     padding: 20px;
     border-radius: 10px;
     transition: 1s;
+    height: min-content;
 }
 
 .image:hover {
@@ -105,20 +104,17 @@
     margin-top: 10px
 }
 
-.select {
-    padding-left: 20px;
-}
 
 select {
     padding: 10px;
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 1px;
-    border-image-source: linear-gradient(110deg,  #f73f64, #5d74e9);
+    border: 1px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(45deg, #f73f64, #5d74e9) 1;
     background-color: black;
     color: white;
     cursor: pointer;
     outline: none;
+    margin-left: 20px;
 }
 
 select:hover {
@@ -170,11 +166,9 @@ select:hover {
     width: 150px;
     text-align: center;
     padding: 15px 20px;
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 4px;
-    border-image-source: linear-gradient(110deg,  #f73f64, #5d74e9);
+    border: 5px solid;
     border-radius: 5px;
+    border-image: linear-gradient(45deg, #f73f64, #5d74e9) 1;
     cursor: pointer;
 }
 
