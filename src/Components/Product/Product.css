@@ -82,7 +82,9 @@ h3 {
     padding: 15px 25px;
     margin: 10px;
     background-color: white;
-    border: 10px solid pink;
+    border: 10px solid;
+    border-image-source: linear-gradient(110deg,  #f73f64, #5d74e9) 1;
+    font-weight: 500;
     font-size: 14px;
     color: black;
 }
